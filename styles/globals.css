@@ -1,6 +1,27 @@
 
 
 :root {
+  
+    --background: #010101;
+    --sub-background: #111;
+    --alt-background:;
+    --primary-color:;
+    --secondary-color:;
+    --alt-color:;
+
+    --warning-color:;
+    --success-color:;
+    --warning-color:;
+    --danger-color:;
+
+    --font:;
+    --alt-font:;
+
+    --font-color:;
+    --alt-font-color:;
+    --link-font-color:;
+
+    --button-color: #fff;
     
   --blue-1: hsl(217, 28%, 15%);
   --blue-2: hsl(216, 73%, 18%);

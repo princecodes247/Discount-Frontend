@@ -17,6 +17,8 @@ body {
     font-family: "Nunito";
     background-color: var(--primary-bg);
     color: var(--text_color--default);
+    background: var(--background);
+    color: #fff;
     /* width: 100vw;
     overflow: hidden; */
 }
@@ -107,3 +109,26 @@ margin: .7666666667rem 0 .46rem 0;
     display: flex;
     flex-direction: column;
 }
+
+section {
+    background: var(--sub-background);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+button,.button {
+    border: none;
+    background: var(--button-color);
+    padding: 5px;
+}
+
+.button-clear {
+    background: #0000;
+    color: #fff;
+}
+
+.input {
+    padding: 10px;
+
+}
+

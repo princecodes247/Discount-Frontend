@@ -6,10 +6,10 @@ import { useState, useEffect } from "react"
 let [menuIsOpen, setMenuIsOpen] = useState(false)
     return <header className={styles.header}>
           <div className={styles.nav}>
-            <div className="flex-1">Grypto</div>
+            <div className="flex-1">Discount</div>
             <ul className={"gap-8 hidden md:flex"}>
               <li className={styles.nav_link}>Home</li>
-              <li className={styles.nav_link}>Home</li>
+        <li className={styles.nav_link}>Home</li>
               <li className={styles.nav_link}>Home</li>
             </ul>
           </div>
