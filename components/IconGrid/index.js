@@ -1,17 +1,17 @@
 
- // import styles from './ItemCard.module.css'
+ import styles from './IconGrid.module.css'
+ import IconGridItem from './IconGridItem'
 
 // import { useState, useEffect } from "react"
   const IconGrid = (props) => {
-    return <ul className="deals">
-            <li className="deal">
-              <div className="deal_img"></div>
-              <p>Top Deals</p>
-            </li>
-            <li className="deal">
-              <div className="deal_img"></div>
-              <p>Top Deals</p>
-            </li>
+    return <ul className={styles.grid}>
+            <IconGridItem />
+            <IconGridItem />
+            <IconGridItem />
+            <IconGridItem />
+            <IconGridItem />
+            <IconGridItem />
+            <IconGridItem />
           </ul>
 
   }

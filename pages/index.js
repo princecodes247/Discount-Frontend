@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 import ItemCard from '../components/ItemCard'
+import IconGrid from '../components/IconGrid'
 import Highlights from '../components/Highlights'
 
 import { useState, useEffect } from "react"
@@ -31,6 +32,8 @@ export default function Home() {
         </section>
           <section className="highlights-sect">
             <Highlights />
+            <Highlights />
+            
     </section>
     <section className="promo-sect">
       <Carousel />

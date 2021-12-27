@@ -1,10 +1,10 @@
-// import styles from '../../styles/Home.module.css'
+ import styles from './Carousel.module.css'
 import CarouselItem from './carouselItem.js'
 
 import { useState, useEffect } from "react"
   const Carousel = (props) => {
-    return <div className="carousel">
-        <div className="carousel__spinner">
+    return <div className={styles.carousel}>
+        <div className={styles.carouselSpinner}>
          <CarouselItem/>
          <CarouselItem/>
          

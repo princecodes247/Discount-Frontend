@@ -1,0 +1,21 @@
+.grid {
+	display: grid;
+	grid-gap: 10px;
+	
+}
+.gridItem {
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid red;
+    align-items: center;
+}
+
+.itemImg {
+    width: 60px;
+    height: 60px;
+    background: #222;
+}
+
+.itemText {
+    text-align: center;
+}
