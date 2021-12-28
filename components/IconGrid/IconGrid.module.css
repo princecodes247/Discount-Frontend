@@ -1,7 +1,7 @@
 .grid {
 	display: grid;
 	grid-gap: 10px;
-	
+	grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
 }
 .gridItem {
     display: inline-flex;
@@ -11,11 +11,12 @@
 }
 
 .itemImg {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: #222;
 }
 
 .itemText {
+    font-size: 0.7em;
     text-align: center;
 }
