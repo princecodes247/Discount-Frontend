@@ -17,7 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Head>
-          <title>Crypto</title>
+          <title>Discount</title>
           <meta name="description" content="Crypto" />
           <link rel="icon" href="/favicon.ico" />
       
