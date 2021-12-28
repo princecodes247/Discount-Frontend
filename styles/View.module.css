@@ -1,0 +1,15 @@
+.topImg {
+	background: red;
+	height: 100px;
+	width: 40px;
+}
+
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom {
+	
+}
