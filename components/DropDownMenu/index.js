@@ -5,10 +5,10 @@
             <ul className="gap-1 mb-4 flex text-center flex-col">
               <a href="/" className="hover:text-primary-accent p-1">Home</a>
               <a href="/about" className="hover:text-primary-accent p-1">About</a>
-              <a href="/" className="hover:text-primary-accent p-1">Stocks</a>
-              <a href="/" className="hover:text-primary-accent p-1">CryptoCurrency</a>
+              <a href="/" className="hover:text-primary-accent p-1">All Categories</a>
+              <a href="/" className="hover:text-primary-accent p-1">Profile</a>
+              <a href="/" className="hover:text-primary-accent p-1">Settings</a>
               <a href="/" className="hover:text-primary-accent p-1">Contact Us</a>
-              
               
             </ul>
           <div className="flex gap-5">
