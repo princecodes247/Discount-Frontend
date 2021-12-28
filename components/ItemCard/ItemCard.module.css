@@ -1,6 +1,15 @@
 
+.card {
+	margin-right: 10px;
+}
 
 .img {
+	background: #000;
     height: 80px;
-    width: 40px;
+    width: 100px;
+}
+
+.text {
+	text-align: center;
+	font-size: 0.7em;
 }

@@ -2,11 +2,11 @@
 
 // import { useState, useEffect } from "react"
   const ItemCard = (props) => {
-    return   <div className="highlight_item">
+    return   <div className={styles.card}>
             <div className={styles.img}></div>
-            <div className="highlight_item__desc">
-              <p>Phone of dooo</p>
-              <p>30,990</p>
+            <div className={styles.desc}>
+              <p className={styles.text}>Phone of dooo</p>
+              <p className={styles.text}>30,990</p>
             </div>
           </div>
   }
