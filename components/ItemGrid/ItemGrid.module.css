@@ -1,7 +1,7 @@
 .grid {
     padding: 10px;
 	display: grid;
-	grid-gap: 10px;
+	grid-gap: 10px 1px;
 	grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
     background: #999;
 }
